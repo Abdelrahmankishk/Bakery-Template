@@ -3,7 +3,7 @@
   margin: 0;
 }
 .container {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 .clr {
@@ -79,8 +79,9 @@ hr {
 .whoWeAre-text {
   float: right;
   width: 50%;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-left: 50px;
+  vertical-align: bottom;
 }
 .whoWeAre-text h2 {
   margin-bottom: 10;
@@ -92,7 +93,7 @@ hr {
   font-size: 18;
   line-height: 30.6px;
   font-weight: 400;
-  margin: 20px 0;
+  margin: 40px 0;
 }
 .whoWeAre-text span {
   margin-top: 10;
@@ -110,6 +111,7 @@ hr {
 .whoWeAre-text li {
   display: flex;
   align-items: center;
+  padding-bottom: 15;
 }
 
 .whoWeAre-img {
@@ -130,7 +132,7 @@ hr {
 .OurLocation-text {
   width: 50%;
   float: left;
-  padding-top: 30;
+  padding-top: 50;
 }
 .OurLocation-text h2 {
   font-size: 38px;
@@ -156,9 +158,6 @@ hr {
   text-align: center;
   padding: 90px;
   font-family: "Alegreya Sans", sans-serif;
-}
-.ourBaking-text {
-  margin-bottom: 60;
 }
 .ourBaking-text h2 {
   font-weight: 400;
@@ -192,6 +191,7 @@ hr {
 .ContactInformation {
   background-color: #f8f8f8;
   padding: 90px;
+  font-family: "Alegreya Sans", sans-serif;
 }
 .ContactInformation-text {
   width: 45%;
@@ -248,12 +248,12 @@ hr {
   margin: 20px 0;
 }
 
-/*Bottom: Openning Hours */
+/*Bottom */
 .bottom {
   background-color: #403d38;
   color: #969696;
-  padding-top: 60;
-  padding-bottom: 52;
+  padding: 90px 0;
+  font-family: "Alegreya Sans", sans-serif;
 }
 .bottom h4 {
   margin-bottom: 25;
@@ -261,41 +261,84 @@ hr {
 .bottom p {
   margin-bottom: 20;
 }
-
-.aboutUs {
-  width: 25%;
-  float: left;
+#bottomArrow {
+  width: 30px;
+  vertical-align: middle;
 }
-.special {
-  width: 25%;
+/*Bottom: About Us */
+.aboutUs {
+  width: 24%;
   float: left;
+  margin-right: 10px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.aboutUs h4 {
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.aboutUs p {
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/*Bottom: Why we are special? */
+.special {
+  width: 24%;
+  float: left;
+  margin-right: 10px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.special h4 {
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 .special span {
-  display: inline-block;
-  padding-top: 5;
-  padding-bottom: 4;
-  margin-bottom: 6;
+  display: block;
+  margin-bottom: 17px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+/*Bottom: Openning Hours */
 .OpeningHours {
-  width: 25%;
+  width: 24%;
   float: left;
+  margin-right: 10px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.OpeningHours h4 {
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 .OpeningHours span {
-  display: inline-block;
-  padding-top: 5;
-  padding-bottom: 4;
-  margin-bottom: 6;
+  display: block;
+  margin-bottom: 17px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 /*Bottom: contact Details */
 .ContactDetails {
-  width: 25%;
+  width: 24%;
   float: left;
+  margin-right: 10px;
+  background-image: url(../images/contact-details-map.png);
+  background-size: contain;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.ContactDetails h4 {
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 .ContactDetails a {
   color: #969696;
   text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 .ContactDetails p {
   padding-top: 5;
@@ -303,6 +346,7 @@ hr {
   margin-bottom: 10;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 .ContactDetails img {
   width: 25;
@@ -312,13 +356,14 @@ hr {
   float: left;
 }
 .ContactDetails #phone {
-  color: #969696;
+  color: #7e7d7a;
 }
 .ContactDetails a {
-  display: inline-block;
+  display: block;
   padding-top: 13;
   padding-bottom: 10;
   margin-bottom: 10;
+  font-size: 17px;
 }
 
 /* footer */
@@ -337,14 +382,25 @@ hr {
   height: 96;
 }
 .footer-text {
-  color: #777777;
+  color: white;
   margin-top: 5;
+  font-family: "Alegreya Sans", sans-serif;
 }
 .footer-img {
   padding-top: 8;
   margin-top: 15;
 }
+.footer-img img {
+  width: 350px;
+}
+.footer .footer-text p {
+  margin: 30px 0;
+  opacity: 0.5;
+}
 .footer-icons img {
-  width: 50;
-  height: 50;
+  width: 40;
+  height: 40;
+  background-color: #484540;
+  border-radius: 50%;
+  margin-right: 5px;
 }
