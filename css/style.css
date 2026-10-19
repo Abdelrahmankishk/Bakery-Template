@@ -75,33 +75,48 @@ hr {
 .whoWeAre {
   padding-top: 90;
   padding-bottom: 60;
+  font-family: "Alegreya Sans", sans-serif;
 }
 .whoWeAre-text {
   float: right;
-  width: 48%;
+  width: 56%;
   padding-top: 60;
+  padding-left: 60px;
 }
 .whoWeAre-text h2 {
   margin-bottom: 10;
+  font-size: 38px;
+  font-weight: 400;
+}
+.whoWeAre-text p {
+  color: #686868;
+  font-size: 18;
+  line-height: 30.6px;
+  font-weight: 400;
+  margin: 20px 0;
 }
 .whoWeAre-text span {
   margin-top: 10;
+  font-size: 18px;
+  font-weight: 400;
 }
 .whoWeAre-text img {
   width: 40;
   height: 40;
   margin-top: 10;
   margin-right: 15;
+  border-radius: 50%;
+  border: 1px solid #a5a3a3;
 }
 .whoWeAre-text li {
   display: flex;
   align-items: center;
-  padding-top: 20;
 }
 
 .whoWeAre-img {
-  width: 50%;
+  width: 40%;
   float: left;
+  padding-top: 30;
 }
 .whoWeAre-img img {
   width: 100%;
