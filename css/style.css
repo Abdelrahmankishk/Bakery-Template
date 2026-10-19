@@ -73,14 +73,13 @@ hr {
 
 /* Who we Are? */
 .whoWeAre {
-  padding-top: 90;
-  padding-bottom: 60;
+  padding: 90;
   font-family: "Alegreya Sans", sans-serif;
 }
 .whoWeAre-text {
   float: right;
-  width: 56%;
-  padding-top: 60;
+  width: 55%;
+  padding-top: 25;
   padding-left: 60px;
 }
 .whoWeAre-text h2 {
@@ -125,16 +124,26 @@ hr {
 /* OurLocation */
 .OurLocation {
   background-color: #f8f8f8;
-  padding-bottom: 90;
-  padding-top: 90;
+  padding: 90;
+  font-family: "Alegreya Sans", sans-serif;
 }
 .OurLocation-text {
   width: 50%;
   float: left;
-  padding-top: 90;
+  padding-top: 30;
+}
+.OurLocation-text h2 {
+  font-size: 38px;
+  font-weight: 400;
+}
+.OurLocation-text p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 40px 0;
+  color: #686868;
 }
 .OurLocation-img {
-  width: 50%;
+  width: 45%;
   float: right;
   text-align: center;
 }
