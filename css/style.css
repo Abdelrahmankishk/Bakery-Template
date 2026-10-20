@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 .container {
   width: 90%;
   margin: auto;
@@ -21,15 +24,43 @@ hr {
 /* header */
 .header {
   background-color: cadetblue;
-  text-align: center;
+
   height: 100vh;
   background-image: url("../images/drew-coffman-1872.jpg");
   background-size: cover;
   background-position: center;
   color: #ffffff;
 }
+/* Navbar */
+.header .navbar {
+  font-family: "Alegreya Sans", sans-serif;
+  padding-inline: 35px;
+}
+.header .navbar .navbar-image {
+  float: left;
+  padding-top: 20px;
+}
+.header .navbar .navbar-image img {
+  width: 180px;
+}
+.header .navbar .links {
+  float: right;
+}
+.header .navbar .links a {
+  text-decoration: none;
+  font-size: 19px;
+  line-height: 23px;
+  color: #fff;
+}
+.header .navbar .links li {
+  display: inline-block;
+  padding: 40px 15px;
+}
+
+/* Header Text */
 .header .text {
-  padding-top: 245px;
+  padding-top: 90px;
+  text-align: center;
 }
 .header .text span {
   margin-bottom: 5;
