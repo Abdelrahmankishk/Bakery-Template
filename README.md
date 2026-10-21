@@ -27,6 +27,7 @@ The implementation recreates the visual layout of the original design while usin
 - **Information Footer:** Multi-column layout containing bakery information, highlights, opening hours, and contact details.
 - **Social Media Icons:** A footer section displaying social platform icons.
 - **Smooth Section Navigation:** CSS-based smooth scrolling between linked sections.
+- **Screens Responsive :** Add responsive layouts and media queries for mobile phones and tablets
 
 ## 🛠️ Technologies & Tools
 
@@ -96,7 +97,6 @@ You can also explore the [live demo](https://abdelrahmankishk.github.io/Bakery-T
 
 ## 📈 Potential Future Enhancements
 
-- Add responsive layouts and media queries for mobile phones and tablets.
 - Refactor float-based layouts using Flexbox and CSS Grid where appropriate.
 - Improve HTML semantics, accessibility, and consistent styling conventions.
 - Replace demonstration content and contact information with customized details.
