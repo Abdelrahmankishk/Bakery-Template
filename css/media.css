@@ -1,0 +1,336 @@
+/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */
+/*less than 640*/
+@media screen and (max-width: 640px) {
+  /* NavBar */
+  .header .navbar .links {
+    display: none;
+  }
+  /* Header */
+  .header .text h1 {
+    font-size: 60px;
+  }
+  .header .text p {
+    font-size: 10px;
+    width: 100%;
+    font-size: 30px;
+  }
+  /* Who we Are */
+  .whoWeAre-text {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .whoWeAre-img {
+    width: 100%;
+    float: none;
+  }
+  /* OurLocation */
+  .OurLocation-text {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .OurLocation-img {
+    width: 100%;
+    float: none;
+  }
+  /* Our Baking */
+  .OurBaking-img {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  /* Contact Information */
+  .ContactInformation-text {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .ContactInformation-frame {
+    width: 100%;
+    float: none;
+  }
+  /*Bottom */
+  .bottom {
+    text-align: center;
+  }
+  /*Bottom: About Us */
+  .aboutUs {
+    width: 100%;
+    float: none;
+  }
+  /*Bottom: Why we are special? */
+  .special {
+    width: 100%;
+    float: none;
+  }
+  /*Bottom: Openning Hours */
+  .OpeningHours {
+    width: 100%;
+    float: none;
+  }
+  /*Bottom: contact Details */
+  .ContactDetails {
+    width: 100%;
+    float: none;
+  }
+}
+
+/*sm*/
+/*greater than 640 */
+@media screen and (min-width: 640px) {
+  /* NavBar */
+  .header .navbar .links {
+    display: none;
+  }
+  /* Who we Are */
+  .whoWeAre-text {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .whoWeAre-img {
+    width: 100%;
+    float: none;
+  }
+  /* OurLocation */
+  .OurLocation-text {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .OurLocation-img {
+    width: 100%;
+    float: none;
+  }
+  /* Our Baking */
+  .OurBaking-img {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  /* Contact Information */
+  .ContactInformation-text {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .ContactInformation-frame {
+    width: 100%;
+    float: none;
+  }
+  /*Bottom */
+  .bottom {
+    text-align: center;
+  }
+  /*Bottom: About Us */
+  .aboutUs {
+    width: 100%;
+    float: no;
+  }
+  /*Bottom: Why we are special? */
+  .special {
+    width: 100%;
+    float: none;
+  }
+  /*Bottom: Openning Hours */
+  .OpeningHours {
+    width: 100%;
+    float: none;
+  }
+  /*Bottom: contact Details */
+  .ContactDetails {
+    width: 100%;
+    float: none;
+  }
+}
+/* md */
+/*greater than 768*/
+@media screen and (min-width: 768px) {
+  .header .navbar .links {
+    display: none;
+  }
+  /* Who we Are */
+  .whoWeAre-text {
+    float: none;
+    width: 100%;
+  }
+  .whoWeAre-img {
+    width: 100%;
+    float: none;
+  }
+  /* OurLocation */
+  .OurLocation-text {
+    width: 100%;
+    float: none;
+  }
+  .OurLocation-img {
+    width: 100%;
+    float: none;
+  }
+  /* Our Baking */
+  .OurBaking-img {
+    width: 100%;
+    float: none;
+  }
+  /* Contact Information */
+  .ContactInformation-text {
+    width: 100%;
+    float: none;
+  }
+  .ContactInformation-frame {
+    width: 100%;
+    float: none;
+  }
+  .bottom {
+    text-align: center;
+  }
+  /*Bottom: About Us */
+  .aboutUs {
+    width: 47%;
+    float: left;
+  }
+  /*Bottom: Why we are special? */
+  .special {
+    width: 47%;
+    float: left;
+  }
+  /*Bottom: Openning Hours */
+  .OpeningHours {
+    width: 47%;
+    float: left;
+  }
+  /*Bottom: contact Details */
+  .ContactDetails {
+    width: 47%;
+    float: left;
+  }
+}
+/* lg */
+/*greater the 1024*/
+@media screen and (min-width: 1024px) {
+  /* NavBar */
+  .header .navbar .links {
+    display: contents;
+  }
+  /* Who we Are */
+  .whoWeAre-text {
+    float: right;
+    width: 47%;
+  }
+  .whoWeAre-img {
+    width: 45%;
+    float: left;
+  }
+  /* OurLocation */
+  .OurLocation-text {
+    width: 50%;
+    float: left;
+  }
+  .OurLocation-img {
+    width: 45%;
+    float: right;
+  }
+  /* Our Baking */
+  .OurBaking-img {
+    width: 30%;
+    float: right;
+  }
+  /* Contact Information */
+  .ContactInformation-text {
+    width: 44%;
+    float: left;
+  }
+  .ContactInformation-frame {
+    width: 44%;
+    float: right;
+  }
+  /*Bottom: About Us */
+  .aboutUs {
+    width: 23%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  /*Bottom: Why we are special? */
+  .special {
+    width: 23%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  /*Bottom: Openning Hours */
+  .OpeningHours {
+    width: 23%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  /*Bottom: contact Details */
+  .ContactDetails {
+    width: 23%;
+    float: left;
+    margin-bottom: 10px;
+  }
+}
+/* xl */
+/*greater than 1280 */
+@media screen and (min-width: 1280px) {
+  /* NavBar */
+  .header .navbar .links {
+    display: contents;
+  }
+  /* Who we Are */
+  .whoWeAre-text {
+    float: right;
+    width: 47%;
+  }
+  .whoWeAre-img {
+    width: 45%;
+    float: left;
+  }
+  /* OurLocation */
+  .OurLocation-text {
+    width: 50%;
+    float: left;
+  }
+  .OurLocation-img {
+    width: 45%;
+    float: right;
+  }
+  /* Our Baking */
+  .OurBaking-img {
+    width: 30%;
+    float: right;
+  }
+  /* Contact Information */
+  .ContactInformation-text {
+    width: 45%;
+    float: left;
+  }
+  .ContactInformation-frame {
+    width: 45%;
+    float: right;
+  }
+  /*Bottom: About Us */
+  .aboutUs {
+    width: 24%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  /*Bottom: Why we are special? */
+  .special {
+    width: 24%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  /*Bottom: Openning Hours */
+  .OpeningHours {
+    width: 24%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  /*Bottom: contact Details */
+  .ContactDetails {
+    width: 24%;
+    float: left;
+    margin-bottom: 10px;
+  }
+}
