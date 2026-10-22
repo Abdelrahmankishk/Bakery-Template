@@ -2,12 +2,18 @@
 /*less than 640*/
 @media screen and (max-width: 640px) {
   /* NavBar */
+  .header .navbar {
+    display: none;
+  }
   .header .navbar .links {
     visibility: hidden;
   }
   /* Header */
   .header .text h1 {
     font-size: 60px;
+  }
+  .header .text {
+    padding-top: 50px;
   }
   .header .text p {
     font-size: 10px;

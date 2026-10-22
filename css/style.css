@@ -1,5 +1,4 @@
-* {
-  padding: 0;
+body {
   margin: 0;
 }
 html {
@@ -59,7 +58,7 @@ hr {
 
 /* Header Text */
 .header .text {
-  padding-top: 90px;
+  padding-top: 140px;
   text-align: center;
 }
 .header .text span {
@@ -101,7 +100,46 @@ hr {
   background-color: transparent;
   border-color: #fff;
 }
+.header .end {
+  margin-top: 80px !important;
+}
+.header .end .design {
+  margin: auto;
+  display: block;
+  width: 31px;
+  height: 54px;
+  background-color: transparent;
+  border: 2px solid #f8f8f8;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 1.5625rem;
+  position: relative;
+}
+.header .end .design .dot {
+  display: block;
+  background-color: #f8f8f8;
+  width: 10px;
+  height: 11px;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  right: 11px;
+  animation-name: move-dot;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+}
+@keyframes move-dot {
+  0% {
+    top: 8;
+    opacity: 1;
+  }
 
+  100% {
+    opacity: 0;
+    top: 38;
+  }
+}
 /* Who we Are? */
 .whoWeAre {
   padding: 90;
