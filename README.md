@@ -19,7 +19,7 @@ The implementation recreates the visual layout of the original design while usin
 ## ✨ Key Features
 
 - **Navigation Bar:** Section-based navigation links for accessing different parts of the website.
-- **Hero Section:** A full-screen background image, centered introduction, and call-to-action buttons.
+- **Hero Section:** A full-screen background image, centered introduction, call-to-action buttons, and an animated scroll indicator.
 - **Who We Are:** An introduction section with an image, descriptive content, and icon-based information.
 - **Our Location:** A dedicated section combining descriptive text with an image.
 - **Our Baking:** A three-column product showcase featuring Superior Breads, Bagels, and Cookies.
@@ -51,6 +51,7 @@ This project demonstrates practical use of core front-end development techniques
 - Using a reusable `.container` class to maintain consistent horizontal alignment.
 - Clearing floated elements with a reusable `.clr` utility class.
 - Styling hero sections with background images, `background-size`, and `background-position`.
+- Creating CSS animations with `@keyframes` and animation properties to animate the hero section's scroll indicator.
 - Using Flexbox to align icons and text within selected components.
 - Applying typography, spacing, borders, colors, and image sizing consistently across sections.
 - Implementing smooth in-page scrolling with the CSS `scroll-behavior` property.
